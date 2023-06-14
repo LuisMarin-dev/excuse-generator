@@ -4,14 +4,7 @@ window.onload = function() {
   let what = ['my homework', 'the keys', 'the car'];
   let when = ['before the class', 'right on time', 'when I finished', 'during my lunch', 'while I was praying'];
   
-  // var allArr = [who, action, what, when];
-  
   const chooseRandom = (arreglo) => {
-    // for (let i = 0; i < 4; i++){
-    //   console.log(allArr[0][0])
-
-    // }
-
     const random = Math.floor(Math.random() * arreglo.length);
     return random;
   }
